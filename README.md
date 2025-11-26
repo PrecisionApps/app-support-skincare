@@ -8,7 +8,7 @@ Support website for SkinCare, an AI-powered cosmetic suggestions app.
 
 ## Privacy Highlights
 
-- **No biometric data collected** – no facial geometry, recognition templates, or depth maps
+- **No data collected or stored** – we only process images, no data is retained
 - **2D image only** – only the image file you upload is processed
 - **Secure processing** – images are sent to our secure backend to be processed by an LLM
 - **Not permanently stored** – images are not saved in databases or used for training
