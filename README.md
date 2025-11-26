@@ -1,16 +1,17 @@
-# GlowAI – Skincare App Support Site
+# SkinCare – App Support Site
 
-Support website for GlowAI, an AI-powered skincare analysis app.
+Support website for SkinCare, an AI-powered cosmetic suggestions app.
 
-## ⚠️ Medical Disclaimer
+## ⚠️ Cosmetic Use Only
 
-**GlowAI is NOT a medical device and does NOT provide medical advice.** All information is for general educational purposes only. This app cannot diagnose skin cancer, dermatological conditions, or any disease. Always consult a board-certified dermatologist or qualified healthcare provider for skin concerns.
+**SkinCare provides cosmetic and aesthetic suggestions ONLY.** This app does NOT detect illnesses, analyze skin conditions, or provide medical advice of any kind. All output is for entertainment and cosmetic purposes only.
 
 ## Privacy Highlights
 
-- **Photos are NEVER stored** – processed once and immediately discarded
-- **No photo uploads** – images are never transmitted to servers
-- **Your privacy is paramount** – we collect minimal data
+- **No biometric data collected** – no facial geometry, recognition templates, or depth maps
+- **2D image only** – only the image file you upload is processed
+- **Secure processing** – images are sent to our secure backend to be processed by an LLM
+- **Not permanently stored** – images are not saved in databases or used for training
 
 ## Pages
 
