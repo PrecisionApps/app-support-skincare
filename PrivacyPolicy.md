@@ -131,7 +131,7 @@ We may update this Privacy Policy from time to time. We will notify you of any m
 If you have any questions about this Privacy Policy, please contact us at:
 
 **Email:** kaanyildiz.iosdev@gmail.com  
-**Website:** https://precisionapps.dev/quitto
+**Website:** https://precisionapps.github.io/Quitto/
 
 ---
 

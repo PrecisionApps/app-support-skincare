@@ -67,13 +67,13 @@ Break the cycle. Build a new life. Download Quitto today.
 quit,smoking,alcohol,sober,addiction,recovery,craving,habit,tracker,journal,coach,vaping,health
 
 ## Support URL
-https://precisionapps.dev/quitto/support
+https://precisionapps.github.io/Quitto/
 
 ## Marketing URL
-https://precisionapps.dev/quitto
+https://precisionapps.github.io/Quitto/
 
 ## Privacy Policy URL
-https://precisionapps.dev/quitto/privacy
+https://precisionapps.github.io/Quitto/privacy.html
 
 ## Category
 Primary: Health and Fitness

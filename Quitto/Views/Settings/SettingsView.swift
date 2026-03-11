@@ -256,7 +256,7 @@ struct SettingsView: View {
                             .foregroundStyle(Color.textSecondary)
                     }
                     
-                    Link(destination: URL(string: "https://precisionapps.dev/quitto/privacy")!) {
+                    Link(destination: URL(string: "https://precisionapps.github.io/Quitto/privacy.html")!) {
                         HStack {
                             Text("Privacy Policy")
                             Spacer()
@@ -266,7 +266,7 @@ struct SettingsView: View {
                         }
                     }
                     
-                    Link(destination: URL(string: "https://precisionapps.dev/quitto/terms")!) {
+                    Link(destination: URL(string: "https://precisionapps.github.io/Quitto/terms.html")!) {
                         HStack {
                             Text("Terms of Service")
                             Spacer()

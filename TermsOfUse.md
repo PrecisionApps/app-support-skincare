@@ -101,7 +101,7 @@ We grant you a limited, non-transferable, non-exclusive license to use the App f
 
 ## Privacy
 
-Use of the App is subject to our [Privacy Policy](https://precisionapps.dev/quitto/privacy). Your personal data is stored locally on your device. AI Coach messages are transmitted securely to generate responses and are not permanently stored.
+Use of the App is subject to our [Privacy Policy](https://precisionapps.github.io/Quitto/privacy.html). Your personal data is stored locally on your device. AI Coach messages are transmitted securely to generate responses and are not permanently stored.
 
 ---
 
@@ -162,7 +162,7 @@ These Terms are governed by the laws of the jurisdiction in which the developer 
 For questions about these Terms:
 
 **Email:** kaanyildiz.iosdev@gmail.com  
-**Website:** https://precisionapps.dev/quitto
+**Website:** https://precisionapps.github.io/Quitto/
 
 ---
 

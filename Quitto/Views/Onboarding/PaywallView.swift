@@ -374,7 +374,7 @@ struct PaywallView: View {
                     .font(.labelSmall)
                     .foregroundStyle(Color.textTertiary)
                 
-                Link("Terms", destination: URL(string: "https://precisionapps.dev/quitto/terms")!)
+                Link("Terms", destination: URL(string: "https://precisionapps.github.io/Quitto/terms.html")!)
                     .font(.labelSmall)
                     .foregroundStyle(Color.textSecondary)
                 
@@ -382,7 +382,7 @@ struct PaywallView: View {
                     .font(.labelSmall)
                     .foregroundStyle(Color.textTertiary)
                 
-                Link("Privacy", destination: URL(string: "https://precisionapps.dev/quitto/privacy")!)
+                Link("Privacy", destination: URL(string: "https://precisionapps.github.io/Quitto/privacy.html")!)
                     .font(.labelSmall)
                     .foregroundStyle(Color.textSecondary)
             }
