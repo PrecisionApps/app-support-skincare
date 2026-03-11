@@ -120,7 +120,7 @@
 - [x] aps-environment: production (was development)
 - [x] Dummy API key removed from AppConstants
 - [x] All defaultAPIKey references cleaned up
-- [x] Privacy/Terms URLs updated (precisionapps.dev/quitto/*)
+- [x] Privacy/Terms URLs updated (precisionapps.github.io/Quitto/*)
 - [x] PaywallView Terms/Privacy as tappable links
 - [x] Settings version string dynamic from bundle
 - [x] Delete All Data -> clears widgets + triggers onboarding
@@ -159,7 +159,7 @@
 - [x] DashboardComponents MilestoneRow — source attribution + MedicalDisclaimerBanner below health benefits
 - [x] MotivationalFactCard — SourceAttributionLabel per fact
 - [x] SettingsView — "Sources & Citations" NavigationLink in About section + medical footer disclaimer
-- [x] SettingsView/PaywallView URLs — updated to precisionapps.dev/quitto/privacy and /terms
+- [x] SettingsView/PaywallView URLs — updated to precisionapps.github.io/Quitto/privacy.html and /terms.html
 - [x] MainTabView — tab bar hidden when Coach tab selected with .easeInOut animation
 - [x] PrivacyPolicy.md — comprehensive Quitto privacy policy with health disclaimer
 - [x] TermsOfUse.md — comprehensive terms with medical disclaimers, AI Coach disclaimer, assumption of risk
@@ -167,7 +167,7 @@
 - [x] app-support-template/privacy.html — full rewrite for Quitto
 - [x] app-support-template/terms.html — full rewrite for Quitto
 - [x] app-support-template/404.html — updated for Quitto branding
-- [x] app-support-template/sitemap.xml — updated URLs to precisionapps.dev/quitto
+- [x] app-support-template/sitemap.xml — updated URLs to precisionapps.github.io/Quitto
 - [x] app-support-template/README.md — updated for Quitto
 
 ---
@@ -175,13 +175,13 @@
 ## CURRENT CONTEXT
 * Last file touched: project_status.md
 * Current Status: Production-Ready (Guideline 1.4.1 citations integrated)
-* Next immediate action: Build verification in Xcode, then host support pages at precisionapps.dev
+* Next immediate action: Build verification in Xcode, then host support pages at precisionapps.github.io/Quitto
 
 ## PRE-SUBMISSION CHECKLIST (Manual Steps)
 - [ ] Replace RevenueCat test API key with production Apple API key in AppConstants.swift
-- [ ] Host privacy policy at https://precisionapps.dev/quitto/privacy
-- [ ] Host terms of service at https://precisionapps.dev/quitto/terms
-- [ ] Host support page at https://precisionapps.dev/quitto/support
+- [ ] Host privacy policy at https://precisionapps.github.io/Quitto/privacy.html
+- [ ] Host terms of service at https://precisionapps.github.io/Quitto/terms.html
+- [ ] Host support page at https://precisionapps.github.io/Quitto/
 - [ ] Configure RevenueCat products/offerings in dashboard
 - [ ] Set up App Store Connect with metadata from AppStoreDescription.md
 - [ ] Add screenshots for all required device sizes
