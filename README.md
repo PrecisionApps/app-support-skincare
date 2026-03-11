@@ -19,19 +19,19 @@ Support website for Quitto, an addiction recovery and habit-tracking app.
 - `privacy.html` – Privacy Policy (local data storage, AI Coach data handling)
 - `terms.html` – Terms of Service (medical disclaimers, assumption of risk)
 - `404.html` – Error page
-- `sitemap.xml` – Sitemap for precisionapps.dev/quitto
+- `sitemap.xml` – Sitemap for precisionapps.github.io/Quitto
 - `robots.txt` – Search engine crawling rules
 
 ## Deploy
 
-Host at `https://precisionapps.dev/quitto/`
+Host at `https://precisionapps.github.io/Quitto/`
 
 ### GitHub Pages
 
 1. Create a new repo (public)
 2. Add these files
 3. GitHub → Settings → Pages → Deploy from branch: `main` / `/ (root)`
-4. Configure custom domain to `precisionapps.dev`
+4. Site goes live at `https://precisionapps.github.io/Quitto/`
 
 ### Local Preview
 
@@ -45,4 +45,4 @@ No build step required – static HTML + CSS.
 
 Developer: Kaan YILDIZ  
 Email: kaanyildiz.iosdev@gmail.com  
-Website: https://precisionapps.dev/quitto
+Website: https://precisionapps.github.io/Quitto
