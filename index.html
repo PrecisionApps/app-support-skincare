@@ -2,25 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>SkinCare – AI Skincare Analysis - Support</title>
+<title>Quitto – App Support</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="SkinCare app support. Cosmetic suggestions only, NOT medical advice. No biometric data collected.">
+<meta name="description" content="Support page for Quitto addiction recovery app. Health information is for educational purposes only. Always consult a healthcare provider.">
 <link rel="icon" href="favicon.ico">
 <style>
   :root {
-    --bg-start: #1a0a14;
-    --bg-mid: #2d1422;
-    --bg-end: #1f0f1a;
-    --fg: #fdf2f5;
-    --fg-soft: #e8d5dc;
-    --accent: #ff8fa3;
-    --accent-hover: #ffb3c1;
-    --accent-warm: #ffc2a8;
-    --card: rgba(255, 143, 163, 0.06);
-    --card-hover: rgba(255, 143, 163, 0.12);
-    --line: rgba(255, 143, 163, 0.15);
+    --bg-start: #0f1419;
+    --bg-mid: #1a2332;
+    --bg-end: #0d1117;
+    --fg: #e6edf3;
+    --fg-soft: #b1bac4;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --card: rgba(88, 166, 255, 0.06);
+    --line: rgba(88, 166, 255, 0.15);
     --shadow: rgba(0, 0, 0, 0.4);
-    --glow: rgba(255, 143, 163, 0.3);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
@@ -36,8 +33,8 @@
     position: fixed;
     inset: 0;
     background: 
-      radial-gradient(ellipse 80% 50% at 20% 20%, rgba(255, 143, 163, 0.12) 0%, transparent 60%),
-      radial-gradient(ellipse 60% 40% at 85% 75%, rgba(255, 194, 168, 0.1) 0%, transparent 55%);
+      radial-gradient(ellipse 80% 50% at 20% 20%, rgba(88, 166, 255, 0.08) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 40% at 85% 75%, rgba(100, 180, 255, 0.06) 0%, transparent 55%);
     pointer-events: none;
     z-index: 0;
   }
@@ -92,14 +89,14 @@
     padding: 14px 28px;
     border-radius: 50px;
     border: none;
-    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-warm) 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
     color: var(--bg-start);
     font-weight: 600;
     transition: all 0.3s ease;
     margin-top: 12px;
-    box-shadow: 0 4px 16px rgba(255, 143, 163, 0.3);
+    box-shadow: 0 4px 16px rgba(88, 166, 255, 0.2);
   }
-  .btn:hover { transform: translateY(-2px) scale(1.02); box-shadow: 0 8px 28px rgba(255, 143, 163, 0.4); text-decoration: none; }
+  .btn:hover { transform: translateY(-2px) scale(1.02); box-shadow: 0 8px 28px rgba(88, 166, 255, 0.3); text-decoration: none; }
   details { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 24px; margin: 16px 0; backdrop-filter: blur(12px); transition: all 0.3s ease; }
   details:hover { background: var(--card-hover); }
   details[open] { background: var(--card-hover); }
@@ -108,23 +105,23 @@
   summary::before { content: '✦'; display: inline-block; transition: transform 0.3s ease; font-size: 0.8rem; }
   details[open] summary::before { transform: rotate(90deg); }
   details p { margin-top: 16px; padding-left: 24px; }
-  .warning-box { background: linear-gradient(135deg, rgba(255, 100, 120, 0.12) 0%, rgba(255, 143, 163, 0.06) 100%); border-left: 3px solid var(--accent); border-radius: 0 12px 12px 0; padding: 16px 20px; margin: 16px 0; font-size: 0.9rem; }
+  .warning-box { background: linear-gradient(135deg, rgba(88, 166, 255, 0.08) 0%, rgba(88, 166, 255, 0.03) 100%); border-left: 3px solid var(--accent); border-radius: 0 12px 12px 0; padding: 16px 20px; margin: 16px 0; font-size: 0.9rem; }
   .warning-box strong { color: var(--accent); }
   .muted { opacity: 0.65; font-size: 0.875rem; }
   footer { margin-top: 80px; padding-top: 40px; border-top: 1px solid var(--line); text-align: center; }
   footer p { opacity: 0.7; font-size: 0.9rem; }
-  .footer-disclaimer { max-width: 800px; margin: 24px auto 0; padding: 20px; background: rgba(255, 100, 120, 0.08); border-radius: 12px; font-size: 0.8rem; line-height: 1.6; opacity: 0.8; }
+  .footer-disclaimer { max-width: 800px; margin: 24px auto 0; padding: 20px; background: rgba(88, 166, 255, 0.06); border-radius: 12px; font-size: 0.8rem; line-height: 1.6; opacity: 0.8; }
   @media (max-width: 768px) { h1 { font-size: 2.25rem; } .grid { grid-template-columns: 1fr; } .wrap { padding: 56px 20px; } .app-icon { font-size: 64px; } }
 </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <div class="app-icon">✨</div>
-      <h1>SkinCare</h1>
-      <p class="subtitle">AI-Powered Skincare Insights</p>
+      <div class="app-icon">🚀</div>
+      <h1>Quitto</h1>
+      <p class="subtitle">Your Addiction Recovery Companion</p>
       <div class="disclaimer-hero">
-        <p><strong>⚠️ Important Notice:</strong> SkinCare provides <strong>cosmetic and aesthetic suggestions ONLY</strong>. This app does NOT detect illnesses, analyze skin conditions, or provide medical advice. All output is for entertainment and cosmetic purposes. For any health concerns, consult a qualified healthcare provider.</p>
+        <p><strong>⚠️ Important Notice:</strong> Quitto provides <strong>general wellness and educational information ONLY</strong>. This app does NOT provide medical advice, diagnosis, or treatment. All health information includes citations from recognized medical organizations. For any health concerns, <strong>always consult a qualified healthcare provider</strong>.</p>
       </div>
     </header>
 
@@ -132,14 +129,14 @@
       <div class="card">
         <span class="card-icon">💬</span>
         <h2>Contact Support</h2>
-        <p>Need help with SkinCare? We're here for app-related questions:</p>
-        <p><strong>Email:</strong><br><a href="mailto:kaanyildiz.iosdev@gmail.com?subject=SkinCare%20Support">kaanyildiz.iosdev@gmail.com</a></p>
-        <p class="muted">Developer: Kaan YILDIZ. Note: Support cannot provide medical advice—please consult a dermatologist for skin concerns.</p>
+        <p>Need help with Quitto? We're here for app-related questions:</p>
+        <p><strong>Email:</strong><br><a href="mailto:kaanyildiz.iosdev@gmail.com?subject=Quitto%20Support">kaanyildiz.iosdev@gmail.com</a></p>
+        <p class="muted">Developer: Kaan YILDIZ. Note: Support cannot provide medical or addiction counseling advice. For crisis support, contact the 988 Suicide and Crisis Lifeline.</p>
       </div>
       
       <div class="card">
         <span class="card-icon">💳</span>
-        <h2>Billing & Refunds</h2>
+        <h2>Billing &amp; Refunds</h2>
         <p>Manage subscriptions or request refunds through Apple:</p>
         <a class="btn" href="https://reportaproblem.apple.com/" target="_blank" rel="noopener">Report a Problem</a>
         <p class="muted">Subscriptions are managed by Apple. We cannot process refunds directly.</p>
@@ -151,57 +148,80 @@
         <p><a href="./privacy.html">Privacy Policy</a></p>
         <p><a href="./terms.html">Terms of Service</a></p>
         <p><a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener">Manage Subscriptions</a></p>
-        <p class="muted">No biometric data collected. See Privacy Policy for details.</p>
+        <p class="muted">Your data is stored locally on your device. See Privacy Policy for details.</p>
       </div>
     </div>
+
+    <h2>Health Information Sources</h2>
+    <p>All health and medical information in Quitto is sourced from recognized organizations including:</p>
+    <div class="grid">
+      <div class="card">
+        <h2>Medical Sources</h2>
+        <ul style="padding-left: 20px;">
+          <li>American Heart Association (AHA)</li>
+          <li>Centers for Disease Control (CDC)</li>
+          <li>National Institute on Drug Abuse (NIDA)</li>
+          <li>National Institute on Alcohol Abuse (NIAAA)</li>
+          <li>World Health Organization (WHO)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Additional Sources</h2>
+        <ul style="padding-left: 20px;">
+          <li>American Psychological Association (APA)</li>
+          <li>American Lung Association (ALA)</li>
+          <li>U.S. Food and Drug Administration (FDA)</li>
+          <li>Johns Hopkins Medicine</li>
+          <li>Mayo Clinic</li>
+        </ul>
+      </div>
+    </div>
+    <p class="muted">Source citations are displayed throughout the app for transparency. These are provided for reference and do not imply endorsement.</p>
 
     <h2>Frequently Asked Questions</h2>
     
     <details>
-      <summary>What is SkinCare?</summary>
-      <p>SkinCare is an AI-powered app that provides <strong>cosmetic and aesthetic suggestions</strong> based on photos you upload. The app analyzes visual patterns like brightness, contrast, and general aesthetic attributes to offer style-based recommendations.</p>
-      <div class="warning-box"><strong>⚠️ Cosmetic Use Only:</strong> SkinCare provides cosmetic suggestions for entertainment purposes. It does NOT detect illnesses, analyze skin conditions, or provide medical advice of any kind.</div>
+      <summary>What is Quitto?</summary>
+      <p>Quitto is an addiction recovery and habit-tracking app designed to help you quit unwanted habits. It features an AI Coach, craving tracker, journal, milestones, and health recovery timelines—all backed by cited sources from recognized health organizations.</p>
+      <div class="warning-box"><strong>⚠️ Not Medical Advice:</strong> Quitto is for educational and general wellness purposes only. It does NOT provide medical advice, diagnosis, or treatment. Always consult a healthcare provider for medical decisions.</div>
     </details>
     
     <details>
-      <summary>How does the AI analysis work?</summary>
-      <p>When you upload a photo, your <strong>2D image</strong> is sent to our secure backend to be processed by a large language model (LLM). The AI analyzes visual patterns like brightness, contrast, and aesthetic attributes to provide <strong>cosmetic and style-based suggestions</strong>.</p>
-      <div class="warning-box"><strong>⚠️ Cosmetic Only:</strong> The AI provides artistic and cosmetic suggestions only. It does NOT detect illnesses, analyze skin conditions, extract biometric data, or perform facial recognition.</div>
+      <summary>How does the AI Coach work?</summary>
+      <p>The AI Coach uses a language model to provide motivational support and evidence-based coping strategies. When the AI references health facts or recovery timelines, it includes citations from recognized organizations (e.g., AHA, CDC, NIDA). Messages are transmitted securely and are not permanently stored by the AI service.</p>
+      <div class="warning-box"><strong>⚠️ Not a Therapist:</strong> The AI Coach is not a licensed therapist, counselor, or medical professional. For mental health emergencies, contact the 988 Suicide and Crisis Lifeline (call or text 988).</div>
     </details>
     
     <details>
-      <summary>What happens to my photos?</summary>
-      <p>Your <strong>2D image file</strong> is sent to our secure backend to be processed by a large language model (LLM) for cosmetic suggestions. Images are <strong>not permanently stored</strong> in databases and are <strong>not used to train AI models</strong>.</p>
-      <div class="warning-box"><strong>🔒 No Biometric Data:</strong> We do NOT collect or store biometric identifiers such as facial geometry, facial recognition templates, depth maps, or any data that can uniquely identify you. Only the 2D image you upload is processed.</div>
+      <summary>Where does the health information come from?</summary>
+      <p>All health claims in Quitto (recovery timelines, health milestones, motivational facts) are sourced from peer-reviewed research and recognized health organizations including the AHA, CDC, NIDA, NIAAA, WHO, APA, ALA, FDA, Johns Hopkins Medicine, and Mayo Clinic. Source citations are displayed alongside health information throughout the app.</p>
     </details>
     
     <details>
-      <summary>Does SkinCare detect skin conditions or provide medical advice?</summary>
-      <p><strong>NO.</strong> SkinCare provides <strong>cosmetic and aesthetic suggestions ONLY</strong>. This app does NOT:</p>
-      <ul style="padding-left: 24px; margin-top: 12px;">
-        <li>Detect illnesses or medical conditions</li>
-        <li>Analyze or diagnose skin conditions</li>
-        <li>Extract biometric features</li>
-        <li>Perform facial recognition</li>
-      </ul>
-      <div class="warning-box"><strong>⚠️ Health Concerns:</strong> For any skin or health concerns, please consult a qualified healthcare professional. This app is for cosmetic and entertainment purposes only.</div>
+      <summary>Is my data private?</summary>
+      <p>Yes. All personal data (habits, journal entries, craving logs, milestones) is stored <strong>locally on your device</strong> using Apple's SwiftData framework. AI Coach messages are transmitted securely to generate responses and are not permanently stored. We do not sell or share your data. See our <a href="./privacy.html">Privacy Policy</a> for complete details.</p>
     </details>
     
     <details>
       <summary>How do I restore purchases?</summary>
-      <p>Open SkinCare → Settings → Restore Purchases. Ensure you're signed in with the same Apple ID used for the original purchase. If issues persist, contact support.</p>
+      <p>Open Quitto → Settings → Restore Purchases. Ensure you're signed in with the same Apple ID used for the original purchase. If issues persist, contact support.</p>
     </details>
     
     <details>
       <summary>How do I cancel my subscription?</summary>
-      <p>Open iOS Settings → [Your Name] → Subscriptions → SkinCare → Cancel Subscription. Or visit <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</p>
+      <p>Open iOS Settings → [Your Name] → Subscriptions → Quitto → Cancel Subscription. Or visit <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</p>
+    </details>
+
+    <details>
+      <summary>I'm in crisis—what should I do?</summary>
+      <p>If you are experiencing a medical emergency, call <strong>911</strong> (or your local emergency number) immediately. For mental health crises, contact the <strong>988 Suicide and Crisis Lifeline</strong> (call or text 988). For substance abuse help, contact <strong>SAMHSA's National Helpline</strong> at 1-800-662-4357 (free, confidential, 24/7).</p>
     </details>
 
     <footer>
-      <p>© 2025 Kaan YILDIZ. All rights reserved.</p>
-      <p><a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Service</a></p>
+      <p>&copy; 2025 Kaan YILDIZ. All rights reserved.</p>
+      <p><a href="./privacy.html">Privacy Policy</a> &middot; <a href="./terms.html">Terms of Service</a></p>
       <div class="footer-disclaimer">
-        <strong>⚠️ COSMETIC USE ONLY:</strong> SkinCare provides cosmetic and aesthetic suggestions ONLY for entertainment purposes. This app does NOT detect illnesses, analyze skin conditions, or provide medical advice. <strong>NO BIOMETRIC DATA IS COLLECTED OR STORED</strong>—we do not extract facial geometry, facial recognition templates, depth maps, or any data that can uniquely identify you. Your 2D image is sent to our secure backend for cosmetic analysis only. For any health concerns, consult a qualified healthcare professional. SkinCare is not affiliated with Apple Inc. or any medical institution.
+        <strong>⚠️ EDUCATIONAL USE ONLY:</strong> Quitto provides general wellness and educational information only. This app does NOT provide medical advice, diagnosis, or treatment. The AI Coach is not a licensed therapist or medical professional. All health information includes source citations from recognized organizations (AHA, CDC, NIDA, NIAAA, WHO, APA, ALA, FDA, etc.). Always consult a qualified healthcare provider for medical decisions. For emergencies, call 911. Quitto is not affiliated with Apple Inc. or any medical institution.
       </div>
     </footer>
   </div>

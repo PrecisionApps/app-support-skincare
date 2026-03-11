@@ -2,192 +2,134 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>SkinCare – Terms of Service</title>
+<title>Quitto – Terms of Service</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Terms of Service for SkinCare skincare app. NOT medical advice. Always consult a dermatologist.">
+<meta name="description" content="Terms of Service for Quitto addiction recovery app. NOT medical advice. Always consult a healthcare provider.">
 <link rel="icon" href="favicon.ico">
 <style>
   :root {
-    --bg-start: #1a0a14;
-    --bg-mid: #2d1422;
-    --bg-end: #1f0f1a;
-    --fg: #fdf2f5;
-    --fg-soft: #e8d5dc;
-    --accent: #ff8fa3;
-    --accent-hover: #ffb3c1;
-    --card: rgba(255, 143, 163, 0.06);
-    --line: rgba(255, 143, 163, 0.15);
+    --bg-start: #0f1419;
+    --bg-mid: #1a2332;
+    --bg-end: #0d1117;
+    --fg: #e6edf3;
+    --fg-soft: #b1bac4;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --card: rgba(88, 166, 255, 0.06);
+    --line: rgba(88, 166, 255, 0.15);
     --shadow: rgba(0, 0, 0, 0.4);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
   body {
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Inter, Helvetica, Arial, sans-serif;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
     background: linear-gradient(165deg, var(--bg-start) 0%, var(--bg-mid) 40%, var(--bg-end) 100%);
-    color: var(--fg);
-    min-height: 100vh;
-    position: relative;
+    color: var(--fg); min-height: 100vh;
   }
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: radial-gradient(ellipse 80% 50% at 20% 20%, rgba(255, 143, 163, 0.12) 0%, transparent 60%),
-                radial-gradient(ellipse 60% 40% at 85% 75%, rgba(255, 194, 168, 0.1) 0%, transparent 55%);
-    pointer-events: none;
-    z-index: 0;
-  }
-  .wrap { max-width: 900px; margin: 0 auto; padding: 80px 24px; position: relative; z-index: 1; }
-  header { text-align: center; margin-bottom: 40px; }
-  .app-icon { font-size: 64px; margin-bottom: 16px; filter: drop-shadow(0 8px 24px rgba(255, 143, 163, 0.3)); }
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin: 0 0 12px;
-    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  .subtitle { color: var(--fg-soft); font-size: 1.1rem; }
-  h2 { font-size: 1.3rem; margin: 32px 0 16px; color: var(--accent); font-weight: 700; }
-  p { margin: 14px 0; line-height: 1.75; color: var(--fg-soft); }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 60px 24px; }
+  h1 { font-size: 2.5rem; font-weight: 800; color: var(--accent); margin-bottom: 8px; letter-spacing: -0.02em; }
+  .date { color: var(--fg-soft); margin-bottom: 32px; font-size: 0.9rem; }
+  h2 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin: 40px 0 16px; }
+  h3 { font-size: 1.1rem; font-weight: 600; color: var(--fg); margin: 24px 0 12px; }
+  p, li { color: var(--fg-soft); line-height: 1.75; margin: 10px 0; }
+  ul { padding-left: 24px; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { color: var(--accent-hover); text-decoration: underline; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px; backdrop-filter: blur(16px); box-shadow: 0 4px 20px var(--shadow); }
-  .highlight-box {
-    background: linear-gradient(135deg, rgba(255, 100, 120, 0.15) 0%, rgba(255, 143, 163, 0.08) 100%);
-    border: 1px solid rgba(255, 100, 120, 0.3);
-    border-radius: 16px;
-    padding: 20px 24px;
-    margin: 20px 0;
-  }
-  .highlight-box strong { color: var(--accent); }
-  .highlight-box p { margin: 8px 0; }
-  ul { padding-left: 20px; margin: 12px 0; }
-  li { margin: 8px 0; color: var(--fg-soft); }
-  footer { margin-top: 60px; padding-top: 32px; border-top: 1px solid var(--line); text-align: center; }
-  footer p { opacity: 0.7; font-size: 0.9rem; }
-  .footer-disclaimer { max-width: 800px; margin: 20px auto 0; padding: 16px; background: rgba(255, 100, 120, 0.08); border-radius: 12px; font-size: 0.8rem; line-height: 1.6; opacity: 0.8; }
-  @media (max-width: 768px) { h1 { font-size: 2rem; } .wrap { padding: 56px 20px; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 24px; margin: 20px 0; }
+  .warning { background: rgba(88, 166, 255, 0.08); border-left: 3px solid var(--accent); border-radius: 0 12px 12px 0; padding: 16px 20px; margin: 20px 0; }
+  .warning strong { color: var(--accent); }
+  footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--line); text-align: center; }
+  footer p { opacity: 0.6; font-size: 0.85rem; }
+  @media (max-width: 768px) { h1 { font-size: 2rem; } .wrap { padding: 40px 20px; } }
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="app-icon">📜</div>
-      <h1>Terms of Service</h1>
-      <p class="subtitle">SkinCare – AI Skincare Insights</p>
-    </header>
+<div class="wrap">
+  <h1>Terms of Service</h1>
+  <p class="date">Last Updated: July 2025</p>
 
-    <div class="card">
-      <div class="highlight-box">
-        <p><strong>⚠️ IMPORTANT – COSMETIC USE ONLY:</strong> SkinCare provides <strong>cosmetic and aesthetic suggestions ONLY</strong>. This app is NOT a medical device, does NOT provide medical advice, diagnosis, or treatment, and does NOT analyze or detect skin conditions or illnesses. All output is for entertainment and cosmetic purposes only. <strong>Always consult a board-certified dermatologist or qualified healthcare provider for any skin or health concerns.</strong></p>
-      </div>
-
-      <h2>Acceptance of Terms</h2>
-      <p>By downloading, installing, or using SkinCare (the "App"), you agree to these Terms of Service and acknowledge that you have read and understood the medical disclaimers contained herein. If you do not agree, do not use the App.</p>
-
-      <h2>⚠️ Cosmetic Use Only – Not Medical Advice</h2>
-      <p><strong>THIS APP PROVIDES COSMETIC SUGGESTIONS ONLY.</strong> SkinCare and all its features, including AI-powered analysis and any output ("Output"), are provided strictly for <strong>cosmetic, aesthetic, and entertainment purposes</strong>.</p>
-      
-      <div class="highlight-box">
-        <p><strong>SkinCare DOES NOT:</strong></p>
-        <ul>
-          <li>Detect illnesses or medical conditions</li>
-          <li>Analyze or diagnose skin conditions</li>
-          <li>Diagnose or detect skin cancer or any disease</li>
-          <li>Provide medical advice, treatment recommendations, or prescriptions</li>
-          <li>Extract biometric features or perform facial recognition</li>
-          <li>Replace examination or consultation with a dermatologist</li>
-        </ul>
-      </div>
-
-      <p>All suggestions are cosmetic and artistic in nature. If you have any health concerns, <strong>consult a qualified healthcare professional immediately</strong>.</p>
-
-      <h2>Assumption of Risk</h2>
-      <p>By using SkinCare, you acknowledge and agree that:</p>
-      <ul>
-        <li>You understand this App does NOT provide medical advice</li>
-        <li>You will NOT rely on this App for medical decisions</li>
-        <li>You will consult qualified healthcare providers for skin concerns</li>
-        <li>You assume all risks associated with using educational skincare information</li>
-        <li>AI analysis may be inaccurate, incomplete, or inappropriate for your situation</li>
-      </ul>
-
-      <h2>Image Data & Privacy</h2>
-      <p>When you upload a photo, the <strong>2D image file</strong> is sent to our secure backend to be processed by a large language model (LLM) to generate cosmetic suggestions. Images are not permanently stored or used for AI training.</p>
-      
-      <div class="highlight-box">
-        <p><strong>No Biometric Data:</strong></p>
-        <p>We do NOT collect or store biometric identifiers such as facial geometry, facial recognition templates, depth maps, or any data that can uniquely identify a person. The only data processed is the 2D image file you choose to upload.</p>
-      </div>
-      
-      <p>Your image is used solely to analyze visual patterns (brightness, contrast, aesthetic attributes) and provide cosmetic suggestions. See our <a href="./privacy.html">Privacy Policy</a> for complete details.</p>
-
-      <h2>License</h2>
-      <p>We grant you a limited, non-transferable, non-exclusive license to use the App for personal, non-commercial, educational purposes in accordance with these Terms and applicable App Store terms.</p>
-
-      <h2>User Responsibilities</h2>
-      <ul>
-        <li>You agree not to misuse the App or attempt to disrupt its operation</li>
-        <li>You agree NOT to use the App as a substitute for professional medical advice</li>
-        <li>You agree to seek professional medical consultation for any skin concerns</li>
-        <li>You are solely responsible for decisions you make regarding your health</li>
-      </ul>
-
-      <div class="highlight-box">
-        <p><strong>⚠️ Reminder:</strong> SkinCare provides cosmetic suggestions only. This app does NOT detect illnesses, analyze skin conditions, or provide medical advice. If you have any health concerns, please consult a healthcare professional.</p>
-      </div>
-
-      <h2>Subscriptions and Billing</h2>
-      <p>Subscriptions and payments are processed by Apple. Manage or cancel via iOS Settings → Subscriptions or <a href="https://reportaproblem.apple.com/" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</p>
-
-      <h2>Privacy</h2>
-      <p>Use of the App is subject to our <a href="./privacy.html">Privacy Policy</a>. Your 2D image is sent to our secure backend for cosmetic analysis. No biometric data is collected, stored, or extracted.</p>
-
-      <h2>Termination</h2>
-      <p>We may suspend or terminate access for violations of these Terms or for actions that compromise the App's integrity.</p>
-
-      <h2>Disclaimer of Warranties</h2>
-      <p>The App and all Output are provided <strong>"AS IS"</strong> without warranties of any kind, express or implied. We do not warrant that:</p>
-      <ul>
-        <li>The App will meet your requirements</li>
-        <li>Any Output will be accurate, complete, or reliable</li>
-        <li>The App will be uninterrupted or error-free</li>
-        <li>Any skincare information is suitable for your specific situation</li>
-      </ul>
-      <p><strong>THIS IS NOT MEDICAL ADVICE.</strong> No warranty is made regarding health outcomes.</p>
-
-      <h2>Limitation of Liability</h2>
-      <p>To the maximum extent permitted by law, we will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, including but not limited to:</p>
-      <ul>
-        <li>Any health-related outcomes or decisions</li>
-        <li>Reliance on any Output or information from the App</li>
-        <li>Failure to seek appropriate medical care</li>
-        <li>Any skin conditions or health issues</li>
-        <li>Loss of profits, data, or goodwill</li>
-      </ul>
-      <p>Our total liability will not exceed the amount you paid for the App in the twelve (12) months preceding the claim.</p>
-
-      <div class="highlight-box">
-        <p><strong>⚠️ FINAL REMINDER – COSMETIC USE ONLY:</strong> SkinCare provides cosmetic and aesthetic suggestions only. It does NOT detect illnesses, analyze skin conditions, or provide medical advice. No biometric data is collected. Always consult a healthcare professional for any health concerns.</p>
-      </div>
-
-      <h2>Changes to Terms</h2>
-      <p>We may update these Terms. Continued use constitutes acceptance of changes.</p>
-
-      <h2>Contact</h2>
-      <p>For questions about these Terms: <a href="mailto:kaanyildiz.iosdev@gmail.com?subject=SkinCare%20Terms">kaanyildiz.iosdev@gmail.com</a></p>
-      <p class="muted">Note: We cannot provide medical advice. For skin concerns, please consult a dermatologist.</p>
-    </div>
-
-    <footer>
-      <p>© 2025 Kaan YILDIZ. All rights reserved.</p>
-      <p><a href="./index.html">Support</a> · <a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Service</a></p>
-      <div class="footer-disclaimer">
-        <strong>⚠️ COSMETIC USE ONLY:</strong> SkinCare provides cosmetic and aesthetic suggestions ONLY. This app does NOT detect illnesses, diagnose skin conditions, or provide medical advice. <strong>NO BIOMETRIC DATA IS COLLECTED</strong>—we do not extract facial geometry, recognition templates, or any identifying data. Your 2D image is sent to our secure backend for cosmetic analysis only. SkinCare is not affiliated with Apple Inc. or any medical institution.
-      </div>
-    </footer>
+  <div class="warning">
+    <p><strong>⚠️ THIS APP DOES NOT PROVIDE MEDICAL ADVICE.</strong> Quitto is for educational and general wellness purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for medical decisions. If you are experiencing a medical emergency, call 911.</p>
   </div>
+
+  <h2>Acceptance of Terms</h2>
+  <p>By downloading, installing, or using Quitto (the "App"), you agree to these Terms of Service. If you do not agree, do not use the App.</p>
+
+  <h2>Not Medical Advice</h2>
+  <div class="card">
+    <p><strong>Quitto does NOT:</strong></p>
+    <ul>
+      <li>Diagnose any medical condition or addiction disorder</li>
+      <li>Prescribe medication or treatment plans</li>
+      <li>Replace consultation with a qualified healthcare provider</li>
+      <li>Provide emergency medical services</li>
+      <li>Guarantee any specific health outcomes</li>
+    </ul>
+    <p style="margin-top: 16px;"><strong>You must:</strong> Consult a qualified healthcare provider before making health-related decisions. Seek immediate medical attention for severe withdrawal symptoms. Not rely solely on this App for addiction recovery.</p>
+  </div>
+
+  <h2>Health Information &amp; Citations</h2>
+  <p>Quitto includes health information sourced from recognized medical organizations including: American Heart Association (AHA), Centers for Disease Control (CDC), National Institute on Drug Abuse (NIDA), NIAAA, WHO, APA, ALA, FDA, Johns Hopkins Medicine, Mayo Clinic, and NCPG.</p>
+  <p>Source citations are displayed throughout the App for transparency. These are provided for reference and do not imply endorsement by the cited organizations.</p>
+
+  <h2>AI Coach Feature</h2>
+  <p>The AI Coach is powered by artificial intelligence. You acknowledge that:</p>
+  <ul>
+    <li>AI Coach responses are generated by a language model and may not always be accurate</li>
+    <li>AI Coach is not a licensed therapist, counselor, or medical professional</li>
+    <li>AI Coach responses include source citations for health-related claims</li>
+    <li>You should verify health information with a qualified professional</li>
+    <li>AI Coach should not be used as a crisis intervention tool</li>
+  </ul>
+  <div class="warning">
+    <p><strong>Crisis Resources:</strong> For mental health emergencies, contact the <strong>988 Suicide and Crisis Lifeline</strong> (call or text 988). For substance abuse help, contact <strong>SAMHSA's National Helpline</strong> at 1-800-662-4357.</p>
+  </div>
+
+  <h2>Assumption of Risk</h2>
+  <p>By using Quitto, you acknowledge that: you understand this App does NOT provide medical advice; you will NOT rely on it for medical decisions; you will consult qualified healthcare providers for health concerns; you assume all risks associated with using educational wellness information; and recovery outcomes may vary.</p>
+
+  <h2>Subscriptions &amp; Billing</h2>
+  <ul>
+    <li>Subscriptions are processed by Apple through the App Store</li>
+    <li>Payment is charged to your Apple ID account at confirmation</li>
+    <li>Subscriptions auto-renew unless canceled at least 24 hours before the current period ends</li>
+    <li>Manage or cancel via iOS Settings &gt; Apple ID &gt; Subscriptions, or visit <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a></li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>Use of the App is subject to our <a href="./privacy.html">Privacy Policy</a>. Your personal data is stored locally on your device. AI Coach messages are transmitted securely to generate responses and are not permanently stored.</p>
+
+  <h2>License</h2>
+  <p>We grant you a limited, non-transferable, non-exclusive license to use the App for personal, non-commercial purposes in accordance with these Terms and applicable App Store terms.</p>
+
+  <h2>User Responsibilities</h2>
+  <ul>
+    <li>You must be at least 17 years old to use this App</li>
+    <li>You agree NOT to use the App as a substitute for professional medical or psychological treatment</li>
+    <li>You are solely responsible for decisions regarding your health and recovery</li>
+    <li>You agree not to misuse the App or attempt to disrupt its operation</li>
+  </ul>
+
+  <h2>Intellectual Property</h2>
+  <p>All content, design, code, and trademarks within Quitto are the property of Kaan YILDIZ. You may not copy, modify, distribute, or create derivative works without prior written consent.</p>
+
+  <h2>Disclaimer of Warranties</h2>
+  <p>The App is provided <strong>"AS IS"</strong> without warranties of any kind. We do not warrant that any health information or AI output will be accurate, complete, or reliable; that the App will result in successful habit change or recovery; or that the App will be uninterrupted or error-free.</p>
+
+  <h2>Limitation of Liability</h2>
+  <p>To the maximum extent permitted by law, we will not be liable for any indirect, incidental, special, consequential, or punitive damages, including health-related outcomes, reliance on App information, or failure to seek appropriate medical care. Our total liability will not exceed the amount paid for the App in the twelve months preceding the claim.</p>
+
+  <h2>Changes to Terms</h2>
+  <p>We may update these Terms from time to time. Continued use after changes constitutes acceptance.</p>
+
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> <a href="mailto:kaanyildiz.iosdev@gmail.com">kaanyildiz.iosdev@gmail.com</a><br>
+  <strong>Website:</strong> <a href="https://precisionapps.dev/quitto">precisionapps.dev/quitto</a></p>
+
+  <footer>
+    <p>&copy; 2025 Kaan YILDIZ. All rights reserved.</p>
+    <p><a href="./index.html">Support</a> &middot; <a href="./privacy.html">Privacy Policy</a></p>
+  </footer>
+</div>
 </body>
 </html>

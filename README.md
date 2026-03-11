@@ -1,41 +1,48 @@
-# SkinCare – App Support Site
+# Quitto – App Support Site
 
-Support website for SkinCare, an AI-powered cosmetic suggestions app.
+Support website for Quitto, an addiction recovery and habit-tracking app.
 
-## ⚠️ Cosmetic Use Only
+## ⚠️ Not Medical Advice
 
-**SkinCare provides cosmetic and aesthetic suggestions ONLY.** This app does NOT detect illnesses, analyze skin conditions, or provide medical advice of any kind. All output is for entertainment and cosmetic purposes only.
+**Quitto provides general wellness and educational information ONLY.** This app does NOT provide medical advice, diagnosis, or treatment. All health information includes citations from recognized medical organizations. Always consult a qualified healthcare provider for medical decisions.
 
-## Privacy Highlights
+## Key Features
 
-- **No data collected or stored** – we only process images, no data is retained
-- **2D image only** – only the image file you upload is processed
-- **Secure processing** – images are sent to our secure backend to be processed by an LLM
-- **Not permanently stored** – images are not saved in databases or used for training
+- **Cited Sources** – All health claims reference AHA, CDC, NIDA, NIAAA, WHO, APA, ALA, FDA, Johns Hopkins, Mayo Clinic
+- **Local Data Storage** – All personal data stored on device via SwiftData
+- **AI Coach with Citations** – AI responses include source citations for health claims
+- **Medical Disclaimer** – Displayed throughout the app and on all health-related content
 
 ## Pages
 
-- `index.html` – Main support page with FAQs
-- `privacy.html` – Privacy Policy (emphasizes photo handling)
-- `terms.html` – Terms of Service (medical disclaimers throughout)
+- `index.html` – Main support page with FAQs, sources list, and crisis resources
+- `privacy.html` – Privacy Policy (local data storage, AI Coach data handling)
+- `terms.html` – Terms of Service (medical disclaimers, assumption of risk)
 - `404.html` – Error page
+- `sitemap.xml` – Sitemap for precisionapps.dev/quitto
+- `robots.txt` – Search engine crawling rules
 
-## Quick Deploy (GitHub Pages)
+## Deploy
+
+Host at `https://precisionapps.dev/quitto/`
+
+### GitHub Pages
 
 1. Create a new repo (public)
 2. Add these files
 3. GitHub → Settings → Pages → Deploy from branch: `main` / `/ (root)`
-4. Site goes live at `https://<username>.github.io/<repo>/`
+4. Configure custom domain to `precisionapps.dev`
 
-## Local Preview
+### Local Preview
 
 ```bash
 python3 -m http.server 8080
 ```
 
-No build step required – static HTML + CSS for maximum speed.
+No build step required – static HTML + CSS.
 
 ## Contact
 
-Developer: Kaan YILDIZ
-Email: kaanyildiz.iosdev@gmail.com
+Developer: Kaan YILDIZ  
+Email: kaanyildiz.iosdev@gmail.com  
+Website: https://precisionapps.dev/quitto
